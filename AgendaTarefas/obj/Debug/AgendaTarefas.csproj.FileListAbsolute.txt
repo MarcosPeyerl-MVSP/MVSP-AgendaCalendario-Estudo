@@ -1,0 +1,10 @@
+C:\Users\24011534\Desktop\AgendaTarefas\bin\Debug\AgendaTarefas.exe.config
+C:\Users\24011534\Desktop\AgendaTarefas\bin\Debug\AgendaTarefas.exe
+C:\Users\24011534\Desktop\AgendaTarefas\bin\Debug\AgendaTarefas.pdb
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.csproj.AssemblyReference.cache
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.frmPrincipal.resources
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.Properties.Resources.resources
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.csproj.GenerateResource.cache
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.csproj.CoreCompileInputs.cache
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.exe
+C:\Users\24011534\Desktop\AgendaTarefas\obj\Debug\AgendaTarefas.pdb
