@@ -135,15 +135,22 @@ namespace AgendaTarefas
         private void btnPriority_Click(object sender, EventArgs e)
         {
             
-
             if(contPriority == 0)
+            {
+                btnPriorityLabel.Text = "";
+                btnPriorityLabel.BackColor = Color.White;
+                btnPriorityLabel.FlatAppearance.BorderColor = Color.Black;
+                contPriority = 1;
+            }
+		
+            else if(contPriority == 1)
             {
                 btnPriorityLabel.Text = "LOW";
                 btnPriorityLabel.BackColor = Color.LightGreen;
                 btnPriorityLabel.FlatAppearance.BorderColor = Color.Green;
-                contPriority = 1;
+                contPriority = 2;
             }
-            else if (contPriority == 1)
+            else if (contPriority == 2)
             {
                 btnPriorityLabel.Text = "MEDIUM";
                 btnPriorityLabel.BackColor = Color.LightYellow;
@@ -157,6 +164,7 @@ namespace AgendaTarefas
                 btnPriorityLabel.FlatAppearance.BorderColor = Color.Red;
                 contPriority = 0;
             }
+
         }
 
         private void btnChosePriority_Click(object sender, EventArgs e)
