@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -55,6 +55,8 @@ namespace AgendaTarefas
                     MessageBox.Show("No priority", "Atention", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     return;
                 }
+		btnPriority.Visible = true;
+                btnChosePriority.Visible = true;
                 description = txtDescription.Text;
                 clbTarefas.Items.Add(txtTarefas.Text);
                 txtTarefas.Text = string.Empty;
@@ -134,7 +136,6 @@ namespace AgendaTarefas
 
         private void btnPriority_Click(object sender, EventArgs e)
         {
-            
             if(contPriority == 0)
             {
                 btnPriorityLabel.Text = "";
@@ -164,7 +165,6 @@ namespace AgendaTarefas
                 btnPriorityLabel.FlatAppearance.BorderColor = Color.Red;
                 contPriority = 0;
             }
-
         }
 
         private void btnChosePriority_Click(object sender, EventArgs e)
